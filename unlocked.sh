@@ -1,10 +1,10 @@
 #!/bin/bash
-usage="[01;32m$(basename "$0") [-d]
+usage="$(basename "$0") [-d]
 
 where: 
   -h              Dispaly this help message
   -d              Daemon Mode
-[04;34m\n[00m"
+\n"
 
 while getopts ':h:d' option; do
   case "$option" in
@@ -13,7 +13,7 @@ while getopts ':h:d' option; do
        ;;
     d) daemon=TRUE
        ;;
-   \?) printf "[01;31millegal option: -%s\n[00m" "$OPTARG" >&2
+   \?) printf "illegal option: -%s\n" "$OPTARG" >&2
        echo "$usage" >&2
        exit 1
        ;;
