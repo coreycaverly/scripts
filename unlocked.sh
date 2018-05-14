@@ -22,7 +22,7 @@ done
 shift $((OPTIND - 1))
 
 start_volume=`osascript -e 'get volume settings'|awk -F',' '{print \$1}'|awk -F':' '{print \$2}'`
-desired_volume=5
+desired_volume=75
 sayings=("I really should lock my computer"\ 
     "I got hacked because I have a lack of technical skillz"\ 
     "I just farted" "why is everybody looking at me"\ 
