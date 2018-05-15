@@ -28,6 +28,8 @@ sayings=("I really should lock my computer"\
     "I just farted" "why is everybody looking at me"\ 
     "I voted for Donald Trump"\ 
     "my imaginary friends tell me that i have a certain jen a say qua"\ 
+    "OOOOklahoma, where the wind comes sweepin' down the plain"\ 
+    "New Kids On the Block is pretty much my favorite band."\ 
     "I like tacos")
 
 dv="osascript -e \"set volume output volume ${desired_volume}\""
